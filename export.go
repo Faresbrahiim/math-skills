@@ -7,7 +7,6 @@ import (
 	"os"
 	"strconv"
 )
-
 func ExportData(s string) []float64 {
 	file, err := os.Open("data.txt")
 	if err != nil {
